@@ -100,7 +100,7 @@ h {
   font-weight: bold;
 }
 .fade-in-text {
-  display: inline-block;
+  
   color: black;
   animation: fadeIn linear 1s;
   -webkit-animation: fadeIn linear 1s;
