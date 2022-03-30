@@ -5,37 +5,37 @@ import { NavLink } from "react-router-dom";
 
 const InfoHarlog = () => (
   <Layout>  
-    <div class='infopage'>
-          <img src="screenshots/harloglogo.png" />
+    <div className='infopage'>
+          <img src="screenshots/harloglogo.png" className="harlogImg"/>
           <p>Harlog is a web application that's main function is to measure a students
               envolvement in lessions and to provide the teacher with comprohensive data.
           </p>
-          <img src="screenshots/harlog1.png" />
+          <img src="screenshots/harlog1.png" className="harlogImg"/>
           <p>Harlog functions through the use of room keys which can be used to enter sessions
               and accounts that can be used to create and manage sessions.
           </p>
-          <img src="screenshots/harlog2.png" />
+          <img src="screenshots/harlog2.png" className="harlogImg"/>
           <p>The data from students is gathered with a 6 question quiz and later processed to 
               find comprohensive results.</p>
-          <img src="screenshots/harlog3.png" />
+          <img src="screenshots/harlog3.png" className="harlogImg"/>
           <p>Logged in users can manage <b>Groups</b>, which resemble classrooms and within these
           groups are <b>Sessions</b> which resemble individual lessons, in which the participants
           answers are collected.</p>
     
    
-          <img src="screenshots/harlog4.png" />
+          <img src="screenshots/harlog4.png" className="harlogImg"/>
           <p>The room keys are made by the logged in user and they have the option to start and end
               sessions.
           </p>
-          <img src="screenshots/harlog5.png" />
+          <img src="screenshots/harlog5.png" className="harlogImg"/>
           <p>After being processed the answers of the participants are converted from 6 questions into 3 values
               which help the User to desipher how participants repsond to sessions.            
           </p>
-          <img src="screenshots/harlog6.png" />
+          <img src="screenshots/harlog6.png" className="harlogImg"/>
           <p>The logged in user can view the processed results in varying precision:
               Group average, Session average, specific Participant in group etc.
           </p>
-          <img src="screenshots/harlog7.png" />
+          <img src="screenshots/harlog7.png" className="harlogImg"/>
           <p>The logged in user has access to a tool that is helpful in comparing different results.</p>
         
         </div>

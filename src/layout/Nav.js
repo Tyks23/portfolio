@@ -5,21 +5,24 @@ let style = {};
 const Nav = () => (
   <nav>
     <ul>
-      <li>
+      <li className="def-nav">
         <NavLink exact to="/">
           Home
         </NavLink>
       </li>
-      <li>
+      <li className="def-nav">
         <NavLink exact to="/about">
           About
         </NavLink>
       </li>
-      <li>
+      <li className="def-nav">
         <NavLink exact to="/projects">
           Projects
         </NavLink>
       </li>    
+      <li className="cv-nav">
+        <a href="/assets/mtyksammel_cv_en.pdf">CV</a>    
+      </li>
     </ul>
   </nav>
 );
